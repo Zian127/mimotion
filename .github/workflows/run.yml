@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: 43 09 * * *
+    - cron: 00 16 * * *
   watch:
     types: started
 
