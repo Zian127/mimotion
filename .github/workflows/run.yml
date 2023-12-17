@@ -2,9 +2,9 @@ name: 刷步数
 
 on:
   schedule:
-    - cron: '50 11 * * *'
-  # watch:
-   # types: started
+    - cron: '15 12 * * *'
+  watch:
+    types: started
 
 jobs:
   job1:
