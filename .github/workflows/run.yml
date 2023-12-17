@@ -2,12 +2,12 @@ name: 刷步数
 
 on:
   schedule:
-    - cron: 15 17 * * *
+    - cron: 51 00 * * *
   watch:
     types: started
 
 jobs:
-  build:
+  jobRun:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
 
